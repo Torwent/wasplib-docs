@@ -19,10 +19,10 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'SRLT'
-description = u'SRLT stands for SRL Tribute. SRLT is a library for Simba to interact with OldSchool RuneScape.'
-copyright = u'2020, SRL Group'
-author = u'SRL Group'
+project = u'WaspLib'
+description = u'WaspLib is a library for Simba 2.0 to interact with OldSchool RuneScape.'
+copyright = u'2025, WaspScripts'
+author = u'Torwent'
 
 # The short X.Y version
 version = u''

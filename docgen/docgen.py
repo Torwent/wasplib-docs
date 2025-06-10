@@ -9,8 +9,8 @@ import re
 import os, sys
 import shutil
 
-DOCNAME         = 'SRLT'
-IGNORE_FOLDERS  = ['.git', '.github', 'docs', 'plugins', 'tests']
+DOCNAME         = 'WaspLib'
+IGNORE_FOLDERS  = ['.git', '.github', 'examples', 'wasplib-docs', 'plugins', 'tests']
 FILE_EXTENSIONS = ['.md', '.simba']
 
 commentregex = re.compile('\(\*.+?\*\)', re.DOTALL)
@@ -33,7 +33,6 @@ def get_files(root):
 def generate_index_rst(TOC, root):
     '''
       Generates the index.rst file
-
       Builds a table of contents for every seperate folder
     '''
 
